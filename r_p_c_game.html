@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock pepar scissors</title>
+    <link rel="stylesheet" href="gamestyle.css">
+</head>
+<body>
+    <h1> Rock Pepar  Scissors Game </h1> 
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="rock.png" /> 
+        </div>
+        
+        <div class="choice" id="Paper">
+            <img src="paper.png" /> 
+        </div>
+        
+        <div class="choice" id="Scissors">
+            <img src="scissors.png"/> 
+        </div>
+    </div>
+    <div class="score-board">
+        <img src="scissors.png" id="img1"/> 
+        <pre>       </pre>
+        <div class="score">
+            <p id="player-score">0</p>
+            <p>Player:       </p>
+        </div>
+        <pre>          </pre>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer: </p>
+        </div>
+        <pre>       </pre>
+        <img src="scissors.png" id="img2"/> 
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+    <script src="gameJS.js"></script>
+</body>
+</html>
